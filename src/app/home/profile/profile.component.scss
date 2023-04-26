@@ -27,8 +27,8 @@
   align-items: center;
   align-content: flex-start;
   gap: 50px;
-  left: -7.572420554186265px;
-  top: 89.10692245241194px;
+  left: 2.5534612262060126px;
+  top: 105.01912487373149px;
   position: fixed;
   margin: 100px;
   width: 1351px;
@@ -53,25 +53,27 @@
   min-height: 50px;
 }
 .group_3 {
+  z-index: 1;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: flex-start;
   gap: 20px;
   overflow: hidden;
-  left: 531.719819487718px;
-  top: 229.47772687074388px;
-  position: absolute;
+  left: 535.0625192955057px;
+  top: 335.28756292030295px;
+  position: fixed;
   min-width: 50px;
   min-height: 50px;
 }
 .tabs {
   z-index: 1;
-  right: 2.893077547588045px;
-  left: -2.893077547588045px;
-  top: 392.5799162526613px;
-  bottom: -101.25925925925925px;
+  right: -4.440892098500626e-16px;
+  left: 73.52270717721768px;
+  top: 424.4042659133833px;
+  bottom: -133.08360891998134px;
   position: fixed;
+  width: 1309px;
   min-width: 0;
   min-height: 0;
 }
@@ -91,9 +93,10 @@
   min-width: min-content;
 }
 .text {
-  left: 126.03754029450593px;
-  top: 265.06250345139273px;
-  position: absolute;
+  z-index: 1;
+  left: 129.3875792972625px;
+  top: 370.8750434148879px;
+  position: fixed;
   height: max-content;
   min-width: min-content;
 }
