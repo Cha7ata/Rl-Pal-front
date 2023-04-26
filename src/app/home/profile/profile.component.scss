@@ -27,12 +27,12 @@
   align-items: center;
   align-content: flex-start;
   gap: 50px;
-  left: 18.4656084656085px;
-  top: 13.67937059755683px;
+  left: -7.572420554186265px;
+  top: 89.10692245241194px;
   position: fixed;
   margin: 100px;
   width: 1351px;
-  height: 995px;
+  height: 954px;
   min-width: 50px;
   min-height: 50px;
   align-self: stretch;
@@ -67,10 +67,10 @@
 }
 .tabs {
   z-index: 1;
-  right: 0;
-  left: 0;
-  top: 291.3206569934018px;
-  bottom: 0;
+  right: 2.893077547588045px;
+  left: -2.893077547588045px;
+  top: 392.5799162526613px;
+  bottom: -101.25925925925925px;
   position: fixed;
   min-width: 0;
   min-height: 0;
@@ -81,14 +81,10 @@
 .image {
   object-fit: cover;
   border-radius: 1000px;
-  left: 371.1915944820989px;
-  top: 154.58096630358807px;
-  position: absolute;
   width: 111px;
   height: 113px;
   min-width: 0;
   min-height: 0;
-  flex-shrink: 0;
 }
 .content {
   height: max-content;
