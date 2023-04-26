@@ -1,0 +1,48 @@
+<div class="row-layout group">
+  <div class="row-reverse-layout group_1">
+    <img src="/assets/taswirti.jpg" class="image" />
+    <div class="row-layout group_2">
+      <h5 class="content">
+        chehata_ahmed
+      </h5>
+      <button igxButton="raised" igxRipple class="button">
+        Modifie Profile
+      </button>
+      <button igxButton="flat" igxRipple routerLink="/home/paramtres" class="button_1">
+        <igx-icon>
+          settings
+        </igx-icon>
+      </button>
+    </div>
+    <div class="row-layout group_3">
+      <p class="content">
+        0 Publications
+      </p>
+      <p class="content">
+        292 followers
+      </p>
+      <p class="content">
+        393 suivi(e)s
+      </p>
+    </div>
+    <p class="text">
+      ------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <igx-tabs tabAlignment="center" [disableAnimation]="true" class="tabs">
+      <igx-tab-item [selected]="true" class="tab-item">
+        <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>grid_on</igx-icon>
+          <span igxTabHeaderLabel>Posts</span>
+        </igx-tab-header>
+        <igx-tab-content class="row-layout tab-item-content"></igx-tab-content>
+      </igx-tab-item>
+      <igx-tab-item class="tab-item">
+        <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>turned_in</igx-icon>
+          <span igxTabHeaderLabel>Recordings</span>
+        </igx-tab-header>
+        <igx-tab-content class="row-layout tab-item-content"></igx-tab-content>
+      </igx-tab-item>
+    </igx-tabs>
+  </div>
+</div>

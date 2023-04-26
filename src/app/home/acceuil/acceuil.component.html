@@ -1,0 +1,114 @@
+<igx-dialog [closeOnOutsideSelect]="true" [closeOnEscape]="true" #dialog>
+  <igx-dialog-title>
+    <h5>
+      Confirmation
+    </h5>
+  </igx-dialog-title>
+  <ng-container>
+    <p>Are you sure you want to do this?</p>
+  </ng-container>
+  <igx-dialog-actions>
+    <button igxButton="flat" igxRipple [igxToggleAction]="dialog">Cancel</button>
+    <button igxButton="flat" igxRipple routerLink="/login">OK</button>
+  </igx-dialog-actions>
+</igx-dialog>
+<div class="column-layout group">
+  <div class="row-layout group_1">
+    <igx-list class="list">
+      <igx-list-item [isHeader]="false">
+        <span igxListLine>
+          <div class="row-layout group_2">
+            <img src="/assets/madfoun.jpeg" class="image" />
+            <div class="row-layout group_3">
+              <div class="column-layout group_4">
+                <h3 class="content">
+                  Location
+                </h3>
+                <p class="content">
+                  Madfoun Forest
+                </p>
+              </div>
+              <div class="column-layout group_5">
+                <h3 class="h3">
+                  Description
+                </h3>
+                <p class="text">
+                  La forêt Madfoun est située au Nord de Hergla et borde le littoral sur 18 km et elle s’étend sur une superficie d’environ 450 hectares.
+                </p>
+              </div>
+              <div class="column-layout group_6">
+                <button igxButton="raised" igxRipple class="button">
+                  Reserve Slot
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row-layout group_3">
+            <img src="/assets/ichkil.jpeg" class="image_1" />
+            <div class="row-layout group_3">
+              <div class="column-layout group_4">
+                <h3 class="content">
+                  Location
+                </h3>
+                <p class="content">
+                  Ichkil Reserve
+                </p>
+              </div>
+              <div class="column-layout group_5">
+                <h3 class="h3">
+                  Description
+                </h3>
+                <p class="text">
+                  The Ichkeul National Park is a natural site located  25 kilometers southwest of Bizerte  on the territory of the governorate of Bizerte.
+                </p>
+              </div>
+              <div class="column-layout group_6">
+                <button igxButton="raised" igxRipple class="button">
+                  Reserve Slot
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row-layout group_3">
+            <img src="/assets/téléchargement.jpeg" class="image_2" />
+            <div class="row-layout group_3">
+              <div class="column-layout group_4">
+                <h3 class="content">
+                  Location
+                </h3>
+                <p class="content">
+                  Amphitheater of El Jem
+                </p>
+              </div>
+              <div class="column-layout group_5">
+                <h3 class="h3">
+                  Description
+                </h3>
+                <p class="text">
+                  L'amphithéâtre d'El Jem est un amphithéâtre ovale situé dans la ville moderne d'El Djem, en Tunisie, anciennement Thysdrus dans la province romaine d'Afrique. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1979.
+                </p>
+              </div>
+              <div class="column-layout group_6">
+                <button igxButton="raised" igxRipple class="button">
+                  Reserve Slot
+                </button>
+              </div>
+            </div>
+          </div>
+        </span>
+      </igx-list-item>
+    </igx-list>
+  </div>
+</div>
+<div class="column-layout group_7">
+  <img src="/assets/taswirti.jpg" class="image_3" />
+  <h5 class="content">
+    chehata_ahmed
+  </h5>
+  <p class="content">
+    Ahmed Chehata
+  </p>
+  <button igxButton="outlined" igxRipple [igxToggleAction]="dialog" class="button_1">
+    Disconnect
+  </button>
+</div>

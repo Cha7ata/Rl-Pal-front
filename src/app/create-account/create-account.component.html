@@ -1,0 +1,39 @@
+<div class="column-layout group">
+  <div class="column-layout group_1">
+    <h5 class="h5">
+      Sign Up
+    </h5>
+    <button igxButton="raised" igxRipple class="button">
+      <igx-icon>
+        donut_small
+      </igx-icon>
+      <span>Sign up with Google</span>
+    </button>
+    <h5 class="h5_1">
+      Name
+    </h5>
+    <igx-input-group type="border" class="input">
+      <input type="text" placeholder="Leslie Alexander" igxInput />
+    </igx-input-group>
+    <h5 class="h5_1">
+      Email
+    </h5>
+    <igx-input-group type="border" class="input">
+      <input type="email" placeholder="example@mail.com" igxInput />
+      <label igxLabel>Email address</label>
+    </igx-input-group>
+    <h5 (click)="inputVisible = !inputVisible" class="h5_1">
+      Password
+    </h5>
+    <igx-input-group type="border" *ngIf="inputVisible" class="input">
+      <input type="password" placeholder="at least 8 characters" [required]="true" igxInput />
+      <label igxLabel>Password</label>
+    </igx-input-group>
+    <igx-checkbox labelPosition="after" class="checkbox">
+      I agree with Terms and Privacy
+    </igx-checkbox>
+    <button igxButton="raised" igxRipple routerLink="/home/acceuil" class="button">
+      Sign Up
+    </button>
+  </div>
+</div>

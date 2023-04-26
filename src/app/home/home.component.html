@@ -1,0 +1,46 @@
+<div class="row-layout group">
+  <div class="view-container">
+    <router-outlet></router-outlet>
+  </div>
+  <igx-nav-drawer [isOpen]="true" [pinThreshold]="0" width="241px" [igxToggleAction]="navDrawer" #navDrawer class="nav-drawer">
+    <ng-template igxDrawer>
+      <img src="/assets/logo.png" class="image" />
+      <div igxDrawerItem igxRipple routerLink="/home/acceuil">
+        <igx-icon class="icon">
+          home
+        </igx-icon>
+        <span>Acceuil</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/home/messages">
+        <igx-icon class="icon">
+          dns
+        </igx-icon>
+        <span>Messages</span>
+      </div>
+      <div igxDrawerItem igxRipple>
+        <igx-icon class="icon">
+          favorite
+        </igx-icon>
+        <span>Notifications</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/home/create">
+        <igx-icon class="icon">
+          create
+        </igx-icon>
+        <span>Create</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/home/profile">
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+        <span>Profile</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/home/paramtres">
+        <igx-icon class="icon">
+          settings
+        </igx-icon>
+        <span>Paramètres</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
+</div>
